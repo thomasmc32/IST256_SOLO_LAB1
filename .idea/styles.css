@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    background-color: #ffdf00;
+    color: #004c23;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #004c23;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+nav ul li {
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+section h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+article {
+    background-color: #004c23;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #004c23;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+aside a {
+    color: red;
+}
+
+footer {
+    background-color: #004c23;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top:30px;
+    border-radius: 5px 5px 0 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+footer p:last-of-type {
+    color: red;
+}
+.button {
+    background-color: #ffdf00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #004c23;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #e6c200;
+}
+.button .text {
+    pointer-events: none;
+}
